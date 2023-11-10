@@ -5,39 +5,84 @@ body {
     max-width: 800px;
     padding: 20px;
     align-items: center;
-    background-color: #c3e4f4;
+    background-color: #044839;
 }
 
 h1, h2 {
-    color: #333;
+    color: #514a4a;
 }
 
 .section {
     margin-bottom: 30px;
-    background: #8eceeb;
+    background: #4fa58d;
     border-radius: 10px;
     padding: 20px;
 }
 
 .section h2 {
     margin-bottom: 10px;
-    color: #194861;
+    color: #273740;
 }
 
 .section p {
     margin-bottom: 5px;
 }
 
-header{
+header {
     background: #185574;
+    padding: 20px; /* Añadido para espacio alrededor del contenido del encabezado */
 }
 
-.header h1{
-    color: #f2f9fd;
+.header h1 {
+    color: #ffffff;
+    font-size: 50px;
+    margin-bottom: 10px; /* Añadido para espacio después del h1 */
 }
 
-i{
+.header a {
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration: none; /* Añadido para quitar subrayado del enlace */
+    transition: color 0.3s ease; /* Añadido para la transición de color al pasar el mouse */
+}
+
+.header a:hover {
+    color: #d0ff00;
+}
+
+.portafolio {
+    position: relative;
+    display: inline-block;
+}
+
+.portafolio a {
+    display: inline-block;
+    padding-right: 20px; 
+}
+
+.portafolio::after {
+    content: '\2192';
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 18px; 
+    margin-left: 5px;
+}
+
+.portafolio:hover::after {
+    opacity: 1;
+}
+
+i {
     font-size: 36px;
+}
+
+img.code-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+    margin-left: 600px;
+    margin-top: -500px;
 }
 
 .section-habilidades{
@@ -45,20 +90,19 @@ i{
     
 }
 
-
 .section-habilidades div{
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
     padding: 20px;
-    background: #8eceeb;
+    background: #8eebcb;
     border-radius: 10px;
 }
 
 a{
     text-decoration: none;
-    color: #185574;
+    color: #525c61;
 }
 
 a:hover{
