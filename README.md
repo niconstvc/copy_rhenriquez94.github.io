@@ -10,4 +10,4 @@ https://rhenriquez94.github.io/portafolio.html
 Mi CV :
 https://rhenriquez94.github.io/
 
-![image](https://github.com/Rhenriquez94/rhenriquez94.github.io/assets/91695458/985a78ff-890a-4ade-8ad7-9a19a0373ffd)
+<img width="1517" alt="Captura de pantalla 2023-11-12 a la(s) 13 31 02" src="https://github.com/niconstvc/copy_rhenriquez94.github.io/assets/120123429/6eb96321-ae71-4ff3-a9c7-2f011fb2b5a1">
